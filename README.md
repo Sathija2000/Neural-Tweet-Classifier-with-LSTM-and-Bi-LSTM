@@ -2,11 +2,11 @@
 
 This project evaluates and compares the performance of Long Short-Term Memory (LSTM) and Bidirectional LSTM (Bi-LSTM) models for tweet classification. The task involves detecting whether a tweet is a **personal health mention** (label 1) or **non-mention** (label 0).
 
-## 📌 Overview
+##  Overview
 
 Tweets are short, informal, and context-dependent, making them suitable for sequence models like LSTM and Bi-LSTM, which can capture temporal and contextual patterns. This project implements and compares both models on preprocessed tweet data.
 
-## 🧠 Models
+##  Models
 
 - **LSTM Model**  
   Two stacked LSTM layers with dropout for better generalization.
@@ -22,7 +22,7 @@ Both models use:
 - Epochs: 5
 - Batch size: 128
 
-## 📊 Results
+##  Results
 
 | Metric              | LSTM     | Bi-LSTM  |
 |---------------------|----------|----------|
@@ -30,7 +30,7 @@ Both models use:
 | Wrong Predictions   | 605      | 597      |
 | Accuracy            | 81.84%   | 82.08%   |
 
-## 🔍 Key Points
+##  Key Points
 
 - **Bi-LSTM slightly outperforms** LSTM by leveraging both past and future context.
 - **Dropout** and **stacked layers** help in generalization.
